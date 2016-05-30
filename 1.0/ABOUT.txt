@@ -1,0 +1,14 @@
+How is a webpage loaded(step by step)?
+
+1. You type http://127.0.0.1:3000/home/index.html
+2. You send a request to the server listening on 127.0.0.1 port 3000.
+3. This request contains the GET /home/index.html in it, as well as other information.
+4. The server parses the request and sends the response.
+5. The response is parsed by the browser, and then interpreted.
+6. The client generates a document object model.
+7. The resources are loaded one by one.
+8. The stylesheets are parsed.
+9. The javascript is parsed.
+
+The question is now, how is stylesheet and javascript parsed? eg head vs body javascript.
+
